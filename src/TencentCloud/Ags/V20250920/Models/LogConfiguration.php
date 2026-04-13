@@ -20,18 +20,18 @@ use TencentCloud\Common\AbstractModel;
 /**
  * 沙箱工具日志采集相关配置
  *
- * @method CLSConfig getCLSConfig() 获取日志推送CLS的配置。
- * @method void setCLSConfig(CLSConfig $CLSConfig) 设置日志推送CLS的配置。
+ * @method CLSConfig getCLSConfig() 获取<p>日志推送CLS的配置。</p>
+ * @method void setCLSConfig(CLSConfig $CLSConfig) 设置<p>日志推送CLS的配置。</p>
  */
 class LogConfiguration extends AbstractModel
 {
     /**
-     * @var CLSConfig 日志推送CLS的配置。
+     * @var CLSConfig <p>日志推送CLS的配置。</p>
      */
     public $CLSConfig;
 
     /**
-     * @param CLSConfig $CLSConfig 日志推送CLS的配置。
+     * @param CLSConfig $CLSConfig <p>日志推送CLS的配置。</p>
      */
     function __construct()
     {
